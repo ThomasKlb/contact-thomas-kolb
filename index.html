@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Groupe KUBE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 10px;
+    }
+
+    .card {
+      background: white;
+      width: 100%;
+      max-width: 380px;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background: #0f2a44;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .header img {
+      width: 110px;
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .header p {
+      margin: 6px 0 0;
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    .content {
+      padding: 24px;
+      text-align: center;
+    }
+
+    .content h2 {
+      margin: 0;
+      font-size: 22px;
+      color: #0f2a44;
+    }
+
+    .content p {
+      margin: 8px 0;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .btn {
+      display: block;
+      margin-top: 14px;
+      padding: 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      background: #b8c436;
+      color: white;
+    }
+
+    .btn.secondary {
+      background: #0f2a44;
+    }
+
+    /* Encore un peu plus gros sur très petits écrans */
+    @media (max-width: 360px) {
+      .header h1 { font-size: 22px; }
+      .content h2 { font-size: 20px; }
+      .btn { font-size: 15px; padding: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="header">
+      <img src="Kube.jfif" alt="Kube">
+      <h1>Groupe KUBE</h1>
+      <p>Promotion – Construction – Ingénierie</p>
+    </div>
+
+    <div class="content">
+      <h2>Thomas Kolb</h2>
+      <p>Ingénieur Diagnostic Structure</p>
+
+      <a class="btn" href="tel:+33744730439">📞 +33 7 44 73 04 39</a>
+      <a class="btn secondary" href="mailto:t.kolb@groupekube.fr">✉️ t.kolb@groupekube.fr</a>
+
+      <p style="margin-top:12px; color:#777; font-size:14px;">
+        📍 2 Rue du Commerce, 51100 Reims, France
+      </p>
+      <p style="color:#777; font-size:14px;">
+        📞 03 26 61 90 50 • contact@groupekube.fr
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
